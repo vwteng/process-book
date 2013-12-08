@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
+	<title>Vivian W Teng - INFO 360 Process Book</title>
+	<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="styles.css" />
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+		
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>	
+	
+	<script type="text/javascript" src="jquery.fullPage.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			var pepe = $.fn.fullpage({
+				slidesColor: ['#ccddff', '#e6fffd', '#e6f5ff', '#fffde6', '#ccddff'],
+				anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+				menu: '#menu'
+			});
+			
+		});
+	</script>
+
+</head>
+<body>
+
+
+
+<ul id="menu">
+	<li data-menuanchor="firstPage"><a href="#firstPage">Home</a></li>
+	<li data-menuanchor="secondPage"><a href="#secondPage">Introduction</a></li>
+	<li data-menuanchor="3rdPage"><a href="#3rdPage">Third slide</a></li>
+	<li data-menuanchor="4thpage"><a href="#4thpage">Fourth slide</a></li>
+	<li data-menuanchor="lastPage"><a href="#lastPage">Last slide</a></li>
+</ul>
+
+<div class="section " id="section0">
+	<div class="home">
+	<img src="http://students.washington.edu/pchiang/info360/welp/img/logo.png">
+	<p>The Process Book</p>
+	<p>Vivian Teng</p>
+	<p>INFO 360 Autumn 2013</p>
+</div>
+</div>
+
+<div class="section" id="section1">
+	<div class="intro">
+		<h1>Introduction</h1>
+		<p>This process book is a documentation of the development of Welp during the fall of 2013.</p>
+
+		<h2>The Team</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+		<h2>Brainstorming</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+</div>
+
+<div class="section" id="section2">
+	<div class="intro">
+		<h1>Example</h1>
+		<p>HTML markup example to define 4 sections.</p>
+	</div>
+</div>
+
+<div class="section" id="section3">
+	<div class="intro">
+		<h1>Working On Tablets</h1>
+		<p>
+			Designed to fit to different screen sizes as well as tablet and mobile devices.
+		</p>
+	</div>
+</div>
+
+<div class="section" id="section4">
+	<div class="slide">
+		<div class="intro">
+			<h1>Create Sliders</h1>
+			<p>Not only vertical scrolling but also horizontal scrolling. With fullPage.js you will be able to add horizontal sliders in the most simple way ever.</p>
+		</div>
+		
+	</div>
+    <div class="slide">
+		<div class="intro">
+			<h1>Simple</h1>
+			<p>Easy to use. Configurable and customizable.</p>
+		</div>
+	</div>
+    <div class="slide">
+		<div class="intro">
+			<h1>Cool</h1>
+			<p>It just looks cool. Impress everybody with a simple and modern web design!</p>
+		</div>
+	</div>
+    <div class="slide">
+		<div class="intro">
+			<h1>Compatible</h1>
+			<p>Working in modern and old browsers too! IE 8 users don't have the fault of using that horrible browser! Lets give them a chance to see your site in a proper way!</p>
+		</div>
+	</div>
+</div>
+
+
+</body>
+</html>
