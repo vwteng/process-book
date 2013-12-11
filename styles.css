@@ -62,7 +62,7 @@ h2 {
 }
 
 img {
-	width: 300px;
+	width: 30%;
 }
 
 .section{
@@ -159,4 +159,15 @@ img {
 .intro {
 	margin: 0 auto;
 	width: 90%;
+}
+
+.s1 {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.half {
+	float: left;
+	width: 45%;
+	margin-right: 2%;
 }
