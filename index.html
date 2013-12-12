@@ -11,7 +11,7 @@
 				 var console = { log: function() {} };
 			</script>
 		<![endif]-->
-			
+		
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>	
 		
@@ -19,7 +19,7 @@
 		<script type="text/javascript">
 			$(document).ready(function() {
 				var pepe = $.fn.fullpage({
-					slidesColor: ['#ffffff', '#e6fffd', '#e6f5ff', '#fffde6', '#ccddff'],
+					slidesColor: ['#ffffff', '#e6f5ff', '#e6fffd', '#fffde6', '#ccddff'],
 					anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
 					menu: '#menu'
 				});
@@ -42,11 +42,10 @@
 
 	<div class="section " id="section0">
 		<div class="home">
-			<img class="logo" src="http://students.washington.edu/pchiang/info360/welp/img/logo.png">
-			<h2>The Process Book</h2>
+			<img class="logo" src="img/logo.png">
+			<h1>The Process Book</h1>
 			<p>Vivian Teng</p>
 			<p>INFO 360 Autumn 2013</p>
-			<footer><a href="#">Click to view as a PDF</a></footer>
 		</div>
 	</div>
 
@@ -55,21 +54,52 @@
 
 
 	<div class="section" id="section1">
-		<div class="intro">
-			<h1>The Beginning</h1>
-			<p>This process book is a documentation of the development of Welp during the fall of 2013.</p>
+		<div class="slide">
+			<img  class= "center logo" src="img/logo.png">
+			<div class="s1">
+				<h1>Introduction</h1>
+				<p>Welp is a project designed for INFO 360: Design Thinking during the fall of 2013. This project was designed as a website to provide service for students to help them find restaurants to eat at.</p>
+				<p>This process book is a documentation of the development of Welp.</p>
+				<p>This book describes the process that led to the final design of Welp. This includes ideating, prototyping, testing, justifying, explaining and communicating. A series of decisions were made and this is the story behind them. This book showcases the design process including my own thoughts and decisions. It is accompanied by my notes, sketches and user tests that were created during the process of developing Welp.</p>
+			</div>
+		</div>
 
-			<h2>Brainstorming</h2>
-			<p>Our first activity was to come up with possible design problems for our project. Since the project had to relate to problems college students faced, we came up with ideas based on our own experience. After we each created a list and combined our ideas, we saw a lot of ideas overlap. There were 5 areas we came up with; food, sleep, commute, finance and majors. Our group decided food would be the most interesting.</p>
+		<div class="slide">
+			<div class="s1">
+				<div class="half">
+					<a href="img/initial.jpg"><img src="img/initial.jpg"></a>
+				</div>
 
-			<h2>Ideating</h2>
-			<p>We began to define the problem with "food". Based upon our own experience, we understood the difficulty of deciding where to eat. I avoid eating out because I end up at the same place every time. I try to find new places by asking my friends, but they are in the same situation as myself. We also came up with a list of consequences and causes of the problem.</p>
+				<div class="half">
+					<h2>Brainstorming</h2>
+					<p>Our first activity was to come up with possible design problems for our project. Since the project had to relate to surviving college, we came up with ideas based on our own experience. After we each created a list and combined our ideas, we saw a lot of ideas overlap.</p>
+					<p>There were 5 areas we came up with; food, sleep, commute, finance and majors.</p>
+					<p>Our group decided food would be the most interesting.</p>
+					<p>Food is a very broad topic and there are many ways college students struggle with food. Students may find it difficult to have money to buy food, how to cook or where to eat.</p>
+					<p>We had to explore the topic of food and define a specific problem. Based upon our own experience, we understood the difficulty of deciding where to eat. I avoid eating out because I end up at the same place even though I am sick of it. I try to find new places by asking my friends, but they don't have any suggestions either. It turns out this was a common problem among my team.
+					<p>I also came up with a list of consequences and causes of the problem to see what type of solutions are appropriate for this situation.</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="slide">
+			<div class="s1">
+				<div class="half">
+					<h2>Ideating</h2>
+					<p>We decided our problem statement was related to the lack of reliable resources for students to find restaurants to eat at. The Ave is a popular location to eat at, but finding information on where to eat at is difficult</p>
+					<p>After we decided on what the problem was, it was time to come up with solutions. During our 2nd lab, we created 50 ideas on sticky notes.</p>
+					<p>On my own, I came up with 40 ideas for homework 3. I began my dividing a piece of paper into 20 squares on each side. From there, I thought of possible ideas, wrote them down and sketched an image along with it. I tried to come up with really creative ideas that were non-existent, but I quickly ran out of ideas. I sketched existing ideas that were similar to services such as Yelp and thought of ways to improve those aspects. I explored ideas that involved computers, mobile devices, entertainment sources and other people.</p>
+					<p>In class, my ideas were combined with my team. Some of them overlapped, but we had around 100 ideas in front of us.</p>
+					<a href="img/ideas50.jpg"><img src="img/ideas50.jpg"></a>	
+				</div>
+
+				<div class="half">
+					<a href="img/ideas2.jpg"><img class="right" src="img/ideas2.jpg"></a>
+				</div>
+			</div>
 		</div>
 	</div>
-
-
-
-
 
 
 
@@ -77,27 +107,59 @@
 	<div class="section" id="section2">
 		<div class="slide">
 			<div class="s1">
-				<h1>Teammates</h1>
-				<p>Teams consisted of three people. I worked with Willie and Patrick. When we first met, we shared our strengths based on the skills survey we filled out. We elected Willie as our team manager. Patrick was in charge of the technical aspect of our project. I took the role of the graphic designer and technical writer.</p>
-				<p>We organized a Facebook chat where we worked on our project together. Although we each had our own specialty, we worked together really well and each contributed to the assignments equally.</p>
+				<h2>Teammates</h2>
+				<p>Teams consisted of three people. We filled out a skills survey the first week of class, so team would be balanced. For this project, I worked with Willie and Patrick. When we first met, we shared what our strengths were. We elected Willie as our team manager. Patrick was in charge of the technical aspect of our project. I took the role of the graphic designer and technical writer.</p>
+				<p>We organized a Facebook chat and folder on Google drive where we worked on our project together. Although we each had our own specialty, we worked together really well and each contributed to the assignments equally. We helped each other accomplish our assignments.</p>
+				<p>As a team, we came up with ideas for our design problem. We gave each other feedback and asked questions to get a better understanding on why we should pick one decision over another.</p>
+				<p>From the beginning, we knew we wanted to create a website for our solution because that was what we were most familiar with. It was still the beginning of the quarter, but we already knew what our design problem was and what medium our solution was going to be. This was just a start because we had to figure out what to put on our website.</p>
+				<img src="img/team.png">
 			</div>
 			
 		</div>
+
 	    <div class="slide">
 			<div class="s1">
-				<h1>Interviews</h1>
-				<p>In addition to working with my team, I conducted interviews with two interviewees. These interviews were meant to help us understand our problem by hearing people's experience with our deisgn problem. My group came up with a list of questions to guide our interviews. I interviewed Jenny and Kevin to see what their current eating habits were. I found out how often they ate on the Ave, where they ate and how they decide where to eat. The interviews confirmed the difficulties of finding restaurants to eat at.</p>
+				<div class="half">
+					<h2>Interviews</h2>
+					<p>In order to figure out what ideas to include in the solution, we had to figure out what people need and want.</p>
+					<p>In addition to working with my team, I conducted interviews. These interviews were meant to help us understand our problem by hearing people's own experience with our design problem. My group came up with a list of questions to guide our interviews.</p>
+					<p>I found people who could be potential users of Welp. I interviewed Jenny and Kevin to see what their current eating habits were. I found out how often they ate on the Ave, where they ate and how they decide where to eat. The interviews confirmed the difficulties of finding restaurants to eat at.</p>
+				</div>
+
+				<div class="half">
+					<a href="img/interview1.jpg"><img src="img/interview1.jpg"></a>
+				</div>
 			</div>
 		</div>
+
+		<div class="slide">
+			<div class="s1">
+				<h2>Personas</h2>
+				<p>With the interview, my team and I created personas. Jenny is one of our persona and her needs are to be healthy and convenience. Kyle is our other persona. He likes to try new things and hang out with his friends. By creating personas, it allowed us think about who the audience for our product is. When we came up with new ideas, we would think about how "Jenny" or "Kyle" would use it.</p>
+				<div class="half">
+					<a href="img/per1.jpg"><img src="img/per1.jpg"></a>
+				</div>
+
+				<div class="half">
+					<a href="img/per2.jpg"><img src="img/per2.jpg"></a>
+					
+				</div>
+
+			</div>
+
+		</div>
+
 	    <div class="slide">
 			<div class="s1">
-				<h1>Group Studies</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<div class="half">
+					<a href="img/interview3.jpg"><img src="img/interview3.jpg"></a>
+				</div>
+				<div class="half">
+					<h2>Group Studies</h2>
+					<p>As our team came up with more and more ideas and selected which ones to implement in our design, we needed to get feedback from others. I showed our design to classmates and my roommates for feedback. Conducting group studies was really useful because I got to see what people liked and what they struggled with.</p>
+					<p>Hearing what people were thinking about as they navigated our design was really helpful. I was able to hear what they did not understand and what they had questions about.</p>
+					<p>Asking for feedback was equally as important. I had focused on what features to include, but I completely ignored the visual design of the website. Maria pointed out ways to improve our interface to provide a good user experience.</p>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -113,15 +175,15 @@
 		<div class="slide">
 			<div class="s1">
 				<div class="half">
-					<h1>Prototype 1</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<h2>Prototypes</h2>
+					<p>My team came up with 3 prototypes as a part of homework 4. We did rough sketches in a notebook during class before laying it out on a piece of paper. We took our ideas and combined them together to create our prototypes.</p>
+					<p>Our first approach was a website that user would be able to search for restaurants on the Ave and pull up all the relevant information.</p>
+					<p>We explored our option with prototype 2 and came up with an interactive map that would display live data on a mobile phone.</p>
+					<p>The third prototype was designed to be "fun" and focused on the social side.</p>
+					<p>These were just low fidelity prototypes, so it was easy to make a lot of different ones and to make changes on existing designs.</p>
 				</div>
 				<div class="half">
+					<h2>Prototype 1</h2>
 					<img src="img/pro1.jpg">
 					<img src="img/pro2.jpg">
 				</div>
@@ -131,45 +193,57 @@
 	    <div class="slide">
 			<div class="s1">
 				<div class="half">
-					<h1>Prototype 2</h1>
+					<h2>Prototype 2</h2>
 					<img src="img/pro4.jpg">
 				</div>
 				<div class="half">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<h2>Prototype 3</h2>
+					<img src="img/pro5.jpg">
+					<img src="img/pro6.jpg">
 				</div>
 			</div>
 		</div>
 	    <div class="slide">
 			<div class="s1">
 				<div class="half">
-					<h1>Prototype 3</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<h2>Testing</h2>
+					<p>Now that we had our prototypes, it was time to test them out. I came up with a list of tasks I wanted users to perform. I had them think verbally, so I could see what they were getting and what they were missing.</p>
+					<p>I presented one prototype after another and took notes of what users liked and disliked. At the end of the user testing, I asked them which they preferred and what they wanted to be added to the prototypes.</p>
 				</div>
+
 				<div class="half">
-					<img src="img/pro5.jpg">
-					<img src="img/pro6.jpg">
+					<a href="img/interview2.jpg"><img src="img/interview2.jpg"></a>
+
 				</div>
 			</div>
 	    </div>
+
+	    <div class="slide">
+	    	<div class="s1">
+	    		<div class="half">
+	    			<p>Heuristic Evaluation</p>
+	    			<a href="img/eval.png"><img class="small" src="img/eval.png"></a>
+	    		</div>
+	    		<div class="half">
+	    			<h2>Improving</h2>
+					<p>After I heard feedback from users, I shared them with my team. We decided prototype 1 was the best approach. To move forward, we took users' suggestions to improve our prototype. Patrick digitalized our product and created the website for Welp. Once that was done, I had another user testing to receive additional feedback.</p>
+					<p>Our team also completed a heuristic evaluation to identify each of the 10 violations that were present on our website. We each found our own 10 problems before sharing it with each other. We saw that a lot of organization had be done. We also had to work on the aesthetics of our product.</p>
+	    		</div>
+	    	</div>
+	    </div>
+
 	    <div class="slide">
 			<div class="s1">
-				<h1>Final Prototype</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<div class="half">
+					<h2>Final Product</h2>
+					<p>With the feedback in mind, we made further changes to our website. We stuck to our approach of keeping things clean and simple, but we added some colors so it wasn't as plain. I designed our logo and matched it to our school's theme of huskies, purple and gold.</p>
+					<p>Our final product was a collection of ideas and decisions we made due to research and feedback. We took our initial sketches, added features and modified them to be our final product.</p>
+				</div>
+
+				<div class="half">
+					<a href="img/final2.png"><img src="img/final2.png"></a>
+				</div>
+
 			</div>
 		</div>
 	</div>
@@ -177,14 +251,12 @@
 
 
 
-
-
-
-
 	<div class="section" id="section4">
 		<div class="intro">
-			<h1>Conclusion</h1>
-			<p>Over the last ten weeks, I have worked with my team to create our project. With design thinking in mind, we went through a series of steps to accomplish our goals. </p>
+			<h2>Conclusion</h2>
+			<p>Over the last ten weeks, I have worked with my team to create our project. With design thinking in mind, we went through a series of steps to accomplish our goals. It took a lot of cycles of ideating and testing to reach our final product. This has been an eye-opening experience on design thinking. Although there were a lot of steps to create Welp, they were each important and I learned a lot. One of the most important lessons was to ask for feedback. User testing was really useful and I wish I had asked for more feedback.</p>
+			<p>It is important to not grow attached to ideas. It is important to hear what others have to say and take their opinions into consideration while designing a product for them. Users' feedback, along with my team's ideas was really important in shaping up what became of Welp.</p>
+			<a href="img/final1.png"><img class="small center" src="img/final1.png"></a>
 		</div>
 	</div>
 

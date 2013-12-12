@@ -30,7 +30,7 @@ h1,h2,h3,h4,h5,h6 {
     font-weight: normal;
     margin:0;
     padding:0;
-    color:#444;
+    color:#000;
 }
 q:before,q:after {
     content:'';
@@ -59,10 +59,6 @@ h1{
 
 h2 {
 	font-weight: bold;
-}
-
-.logo {
-	width: 30%;
 }
 
 .section{
@@ -181,4 +177,22 @@ footer {
 	left: 1px;
 	bottom: 1px;
 	opacity: .6;
+}
+
+.logo {
+	width: 30%;
+}
+
+.center {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.right {
+	float: right;
+}
+
+.small {
+	width: 55%;
 }
